@@ -1,0 +1,10 @@
+<!-- Menu Navigation Bar -->
+<nav class="menu">
+    <a href="<%=application.getContextPath()%>">HOME</a>
+    <a href="<%=application.getContextPath()%>/tienda/fabricantes">FABRICANTES</a>
+    <a href="<%=application.getContextPath()%>/tienda/productos">PRODUCTOS</a>
+    <a href="<%=application.getContextPath()%>/tienda/usuarios">USUARIOS</a>
+    <div class="menu-log">
+        <a href="<%=application.getContextPath()%>/tienda/login">LOGIN</a>
+    </div>
+</nav>
